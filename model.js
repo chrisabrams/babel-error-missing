@@ -2,7 +2,13 @@ class Model {
 
   constructor() {
 
-    this.getSomethingElse()
+    this
+      .getSomethingElse()
+      .then( () => {
+        console.log("I made it")
+      }, () => {
+        console.log("No I didn't")
+      })
 
   }
 
