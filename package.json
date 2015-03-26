@@ -1,0 +1,14 @@
+{
+  "name": "babel-error-missing",
+  "version": "0.0.0",
+  "description": "Example of Babel not showing errors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Abrams <mail@chrisabrams.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^4.7.16"
+  }
+}
